@@ -25,7 +25,7 @@ const Header = () => {
   ];
 
   return (
-    <div class="relative z-10 p-4 mx-auto w-full flex flex-row items-center justify-start">
+    <div class="relative z-10 p-4 mx-auto w-full flex flex-row items-center justify-start bg-gradient-to-t from-transparent via-transparent to-white">
         <div class="flex flex-1 items-center justify-start p-4">
             <div class="hidden sm:flex flex-1 flex-row items-center justify-start space-x-8">
               {tags && tags.length > 0 && tags.map((tag, index) => {
@@ -37,7 +37,7 @@ const Header = () => {
             <div>
               <Button
                 title="Sign up for the early access waitlist"
-                onClick={() => window.location.href = '/work-with-chipt'}
+                onClick={() => window.location.href = '/'}
                 theme="light"
                 simplicity="complex"
                 height="short"
