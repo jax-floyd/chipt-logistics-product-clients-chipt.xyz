@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@100;200;300;400;500;600;700&display=swap');
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
